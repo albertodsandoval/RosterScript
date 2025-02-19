@@ -89,7 +89,7 @@ if len(hsci_students) != 0:
 	date = sys.argv[2].split("/")
 	date = ".".join(date)
 
-	output_string = "3rd_Sem_WS_Roster_HSCI_" + date + ".csv"
+	output_string = "3rd Sem WS Roster HSCI " + date + ".csv"
 
 	with open(output_string,'w',newline='') as csvfile:
 		writer = csv.writer(csvfile)
@@ -119,7 +119,7 @@ if len(kin_students) != 0:
 	date = sys.argv[2].split("/")
 	date = ".".join(date)
 
-	output_string = "3rd_Sem_WS_Roster_KIN_" + date + ".csv"
+	output_string = "3rd Sem WS Roster KIN " + date + ".csv"
 
 	with open(output_string,'w',newline='') as csvfile:
 		writer = csv.writer(csvfile)
@@ -147,7 +147,7 @@ if len(cecs_students) != 0:
 	date = sys.argv[2].split("/")
 	date = ".".join(date)
 
-	output_string = "3rd_Sem_WS_Roster_CECS" + date + ".csv"
+	output_string = "3rd Sem WS Roster CECS " + date + ".csv"
 
 	with open(output_string,'w',newline='') as csvfile:
 		writer = csv.writer(csvfile)
