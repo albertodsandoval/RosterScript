@@ -1,7 +1,19 @@
 import csv
 import sys
 
-# user 
+# Input parameters
+#
+# Day of the week
+# Date
+# Your name
+#
+# EAB Columns
+#
+# Student Name
+# ID
+# Major
+# Appointment Campaign Name
+# Cancelled
 
 student_data = []
 
