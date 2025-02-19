@@ -60,9 +60,9 @@ for student in student_data:
 
 	elif student[3] == "FA25 GS CECS Workshop":
 		if student[4] == "No":
-			kin_students.append(student)
+			cecs_students.append(student)
 		else:
-			kin_cancelled_students.append(student)
+			cecs_cancelled_students.append(student)
 
 	else:
 		print("invalid workshop")
